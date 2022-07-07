@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hhapi
+  description: API
+  annotations:
+    backstage.io/source-location: url:https://github.com/hhru/hhapi
+    github.com/project-slug: hhru/hhapi
+spec:
+  type: service
+  lifecycle: production
+  owner: architecture-team
